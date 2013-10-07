@@ -18,7 +18,6 @@ import weka.attributeSelection.Ranker;
 import weka.classifiers.functions.SMO;
 import weka.clusterers.SimpleKMeans;
 
-
 import java.io.File;
 import java.io.IOException;
 import java.util.Map;
