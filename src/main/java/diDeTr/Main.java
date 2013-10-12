@@ -1,6 +1,8 @@
-package DiDeTr;
+package diDeTr;
 
 import wekaexamples.filters.FilterTypeEnum;
+
+import java.util.Arrays;
 
 /**
  * Created by kucerj28@fjfi.cvut.cz on 10/6/13.
@@ -8,6 +10,14 @@ import wekaexamples.filters.FilterTypeEnum;
 public class Main {
 
    public static void main(String[] args) throws Exception {
+
+
+           Combination c = new Combination(4,2);
+           while (c.hasNext()) {
+               int[] a = c.next();
+               System.out.println(Arrays.toString(a));
+           }
+
 
        DiDeTr diDeTr = new DiDeTr();
        diDeTr.loadIrisArff();

@@ -1,13 +1,14 @@
-package DiDeTr;
+package diDeTr;
 
-import DiDeTr.Tutorial.WekaTutorial;
-import weka.classifiers.trees.DecisionStump;
+import org.apache.commons.math.util.MathUtils;
+import weka.classifiers.functions.LeastMedSq;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils;
 import weka.filters.Filter;
 import wekaexamples.filters.FilterTypeEnum;
 
-import static DiDeTr.Tutorial.JMLTutorial.*;
+import java.io.PrintWriter;
+import java.util.ArrayList;
 
 /**
  * Created by kucerj28@fjfi.cvut.cz on 9/29/13.
@@ -18,8 +19,11 @@ public class DiDeTr {
     private Instances trainingSet;
     private Instances testingSet;
     private Instances validatingSet;
+    private Instances workingSet;
+    private ArrayList<Node> nodes;
 
-    private Filter filter;
+    private FilterFactory filterFactory;
+
 
 
     /**
@@ -58,6 +62,46 @@ public class DiDeTr {
         dataset.setClassIndex(dataset.numAttributes() - 1);
     }
 
+    public void init(FilterTypeEnum filterTypeEnum) throws Exception {
+        filterFactory = new FilterFactory();
+        filterFactory.initFilter(filterTypeEnum, null);
+    }
+
+
+    public void divideNode(int index) throws Exception {
+
+        workingSet = filterFactory.transform(workingSet);
+
+        int sliceDim = 2;
+        int[][] slices = getSlices(sliceDim);
+
+
+
+    }
+
+    private int[][] getSlices(int sliceDim) {
+        int numOfCombinations = 0;
+        try {
+            numOfCombinations = LeastMedSq.combinations(workingSet.numAttributes(), sliceDim);
+        } catch (Exception e) {
+            System.out.println("You've tried to create slice of of dimension greater than the input dimension.");
+            System.exit(1);
+        }
+        int[][] slices = new int[numOfCombinations][sliceDim];
+        Combination combination = new Combination(workingSet.numAttributes(),sliceDim);
+        int i = 0;
+        while (combination.hasNext()) {
+            slices[i] =  combination.next();
+        }
+        return slices;
+    }
+
+
+    /**
+     * %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Getters and Setters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     */
+
+
     public Instances getDataset() {
         return dataset;
     }
@@ -70,32 +114,12 @@ public class DiDeTr {
         return trainingSet;
     }
 
-    public void setTrainingSet(Instances trainingSet) {
-        this.trainingSet = trainingSet;
-    }
-
     public Instances getTestingSet() {
         return testingSet;
     }
 
-    public void setTestingSet(Instances testingSet) {
-        this.testingSet = testingSet;
-    }
-
     public Instances getValidatingSet() {
         return validatingSet;
-    }
-
-    public void setValidatingSet(Instances validatingSet) {
-        this.validatingSet = validatingSet;
-    }
-
-    public Filter getFilter() {
-        return filter;
-    }
-
-    public void setFilter(Filter filter) {
-        this.filter = filter;
     }
 }
 

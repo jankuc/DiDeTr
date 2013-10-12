@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/diDeTr/DiDeTr.java" line="104" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf01dfb9-9f7d-4afb-ba06-b9e1888790ba" name="Default" comment="2nd commit">
+    <list default="true" id="bf01dfb9-9f7d-4afb-ba06-b9e1888790ba" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stdlibtmp/BinaryIn.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stdlibtmp/BinaryOut.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stdlibtmp/BinaryStdIn.class" />
@@ -109,21 +109,6 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DiDeTr/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/diDeTr/Utils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wekaexamples/filters/FilterTypeEnum.java" afterPath="$PROJECT_DIR$/src/main/java/wekaexamples/filters/FilterTypeEnum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
-    <list id="6db28962-7bbe-47e8-906c-6fc7a19c153e" name="Ignore &amp; Idea files" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mathworks_matlabcontrol_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jamde.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/java3d_j3d_core_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DiDeTr.iml" afterPath="$PROJECT_DIR$/DiDeTr.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_squirrel_sql_thirdparty_non_maven_java_cup_0_11a.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_squirrel_sql_thirdparty_non_maven_java_cup_0_11a.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DiDeTr.iws" />
@@ -249,10 +234,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiDeTr.iml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DiDeTr.iml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DiDeTr.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KolmCramRandFEstimator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jamde/estimator/KolmCramRandFEstimator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="17" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="840">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Estimator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jamde/estimator/Estimator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="20" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="14880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StdDraw.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/stdlib/StdDraw.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="154" column="48" selection-start="5518" selection-end="5518" vertical-scroll-proportion="0.30717862" vertical-offset="1991" max-vertical-offset="16710">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StdStats.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/stdlib/StdStats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="282" column="8" selection-start="8252" selection-end="8252" vertical-scroll-proportion="0.0" vertical-offset="4031" max-vertical-offset="5130">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeibullDistribution.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jamde/distribution/WeibullDistribution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="36" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.0" vertical-offset="386" max-vertical-offset="3105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Draw.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/stdlib/Draw.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="222" column="7" selection-start="7468" selection-end="7468" vertical-scroll-proportion="0.0" vertical-offset="2741" max-vertical-offset="16785">
               <folding />
             </state>
           </provider>
@@ -279,7 +318,25 @@
       <file leaf-file-name="DensityEstimator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/diDeTr/DensityEstimator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="32" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+            <state line="3" column="16" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PowerEstimator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jamde/estimator/PowerEstimator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="388" column="22" selection-start="9802" selection-end="9802" vertical-scroll-proportion="0.0" vertical-offset="5441" max-vertical-offset="9930">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NormalDistribution.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jamde/distribution/NormalDistribution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="14" selection-start="2851" selection-end="2851" vertical-scroll-proportion="0.0" vertical-offset="1091" max-vertical-offset="3750">
               <folding />
             </state>
           </provider>
@@ -322,14 +379,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/stdlib/BinaryIn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/stdlib/StdDraw3D.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jamde/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jamde/table/RawTable.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/diDeTr/tutorial/Histogram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/diDeTr/Dataset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jamde/OtherUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/diDeTr/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/wekaexamples/filters/FilterTypeEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/diDeTr/DensityEstimator.java" />
@@ -338,6 +387,14 @@
         <option value="$PROJECT_DIR$/src/main/java/diDeTr/Combination.java" />
         <option value="$PROJECT_DIR$/src/main/java/diDeTr/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/diDeTr/DiDeTr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jamde/estimator/KolmCramRandFEstimator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stdlib/StdStats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jamde/distribution/WeibullDistribution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stdlib/Draw.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jamde/estimator/PowerEstimator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jamde/distribution/NormalDistribution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jamde/estimator/Estimator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stdlib/StdDraw.java" />
       </list>
     </option>
   </component>
@@ -1099,7 +1156,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="bf01dfb9-9f7d-4afb-ba06-b9e1888790ba" name="Default" comment="" />
-      <changelist id="6db28962-7bbe-47e8-906c-6fc7a19c153e" name="Ignore &amp; Idea files" comment="" />
+      <changelist id="" name="Ignore &amp; Idea files" comment="" />
       <created>1380445194160</created>
       <updated>1380445194160</updated>
       <workItem from="1380445196122" duration="1965000" />
@@ -1115,17 +1172,41 @@
       <workItem from="1381415357317" duration="3305000" />
       <workItem from="1381494272665" duration="4278000" />
       <workItem from="1381519638259" duration="6597000" />
-      <workItem from="1381562769781" duration="8434000" />
+      <workItem from="1381562769781" duration="9045000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1381179261911</created>
       <updated>1381179261911</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ignore &amp; Idea files">
+      <created>1381587911472</created>
+      <updated>1381587911472</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117565000" />
+    <option name="totallyTimeSpent" value="118176000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="-4" width="1873" height="1085" extended-state="6" />
@@ -1133,7 +1214,7 @@
     <layout>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27726027" sideWeight="0.6570204" order="3" side_tool="false" content_ui="tabs" x="148" y="96" width="1673" height="885" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290461" sideWeight="0.49972603" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.49972603" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1145,8 +1226,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.49972603" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290461" sideWeight="0.49972603" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16821918" sideWeight="0.6570204" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931507" sideWeight="0.67058825" order="3" side_tool="false" content_ui="tabs" />
@@ -1196,7 +1277,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="2nd commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
+    <MESSAGE value="Ignore &amp; Idea files" />
+    <MESSAGE value="Rubble. some things work, some things don't" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rubble. some things work, some things don't" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1206,67 +1289,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/diDeTr/tutorial/Histogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="97" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/weka.jar!/weka/filters/unsupervised/attribute/Standardize.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="463" selection-end="463" vertical-scroll-proportion="0.17201835" vertical-offset="0" max-vertical-offset="872" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/weka.jar!/weka/filters/unsupervised/attribute/PrincipalComponents.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="16" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="21" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/diDeTr/Dataset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jamde/estimator/DistributionFunctionCont.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="99" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0989011" vertical-offset="285" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/diDeTr/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="77" selection-start="179" selection-end="179" vertical-scroll-proportion="0.115384616" vertical-offset="0" max-vertical-offset="910">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jamde/OtherUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="31" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="2850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/diDeTr/DensityEstimator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/diDeTr/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="29" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
@@ -1314,6 +1336,69 @@
     <entry file="file://$PROJECT_DIR$/DiDeTr.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jamde/estimator/KolmCramRandFEstimator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="17" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stdlib/StdStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="8" selection-start="8252" selection-end="8252" vertical-scroll-proportion="0.0" vertical-offset="4031" max-vertical-offset="5130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jamde/distribution/WeibullDistribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="36" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.0" vertical-offset="386" max-vertical-offset="3105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stdlib/Draw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="222" column="7" selection-start="7468" selection-end="7468" vertical-scroll-proportion="0.0" vertical-offset="2741" max-vertical-offset="16785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/diDeTr/DensityEstimator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jamde/estimator/PowerEstimator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="388" column="22" selection-start="9802" selection-end="9802" vertical-scroll-proportion="0.0" vertical-offset="5441" max-vertical-offset="9930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jamde/distribution/NormalDistribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="14" selection-start="2851" selection-end="2851" vertical-scroll-proportion="0.0" vertical-offset="1091" max-vertical-offset="3750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jamde/estimator/Estimator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="20" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="14880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stdlib/StdDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="48" selection-start="5518" selection-end="5518" vertical-scroll-proportion="0.30717862" vertical-offset="1991" max-vertical-offset="16710">
           <folding />
         </state>
       </provider>

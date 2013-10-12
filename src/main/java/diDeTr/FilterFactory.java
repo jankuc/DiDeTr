@@ -1,4 +1,4 @@
-package DiDeTr;
+package diDeTr;
 
 import weka.core.Instances;
 import weka.filters.Filter;
@@ -13,12 +13,17 @@ import wekaexamples.filters.FilterTypeEnum;
  */
 public class FilterFactory {
     private FilterTypeEnum type;
-    private Filter filter = new Filter() {};
+    private Filter filter;
+
 
     public FilterTypeEnum getType() {
         return type;
     }
 
+    /**
+     *
+     * @param type
+     */
     public void setType(FilterTypeEnum type) {
         this.type = type;
     }
@@ -27,6 +32,13 @@ public class FilterFactory {
         return filter;
     }
 
+    /**
+     *
+     *
+     * @param type ... FilterTypeEnum.{PCA, STANDARDIZE, NORMALIZE, PROJECT}
+     * @param args
+     * @throws Exception
+     */
     public void initFilter(FilterTypeEnum type, Object args[]) throws Exception {
         this.type = type;
 
@@ -49,6 +61,17 @@ public class FilterFactory {
         }
     }
 
+    /**
+     * After this step, there are less variables in the Instances: <br/>
+     *     PCA: 0.95 <br/>
+     *     <br/>
+     * If type==STANDARDIZE || NORMALIZE => we first standardize/normalize then we rank the scores and project the new variables via new filter => transform() is used 2times.
+     *
+     *
+     * @param instances
+     * @return
+     * @throws Exception
+     */
     public Instances transform(Instances instances) throws Exception {
         filter.setInputFormat(instances);
         Instances newInstances = Filter.useFilter(instances, filter);
@@ -63,6 +86,7 @@ public class FilterFactory {
         }
         return newInstances;
     }
+
 
     private int[] rankAttributes() {
         throw new UnsupportedOperationException();

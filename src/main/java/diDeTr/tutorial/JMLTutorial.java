@@ -1,4 +1,4 @@
-package DiDeTr.Tutorial;
+package diDeTr.tutorial;
 
 import net.sf.javaml.classification.Classifier;
 import net.sf.javaml.classification.evaluation.CrossValidation;

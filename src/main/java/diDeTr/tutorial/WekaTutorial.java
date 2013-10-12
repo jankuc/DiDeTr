@@ -1,4 +1,4 @@
-package DiDeTr.Tutorial;
+package diDeTr.tutorial;
 
 
 
@@ -11,9 +11,6 @@ import weka.core.converters.ConverterUtils.DataSource;
 import weka.datagenerators.ClusterDefinition;
 import weka.datagenerators.clusterers.SubspaceCluster;
 import weka.datagenerators.clusterers.SubspaceClusterDefinition;
-import wekaexamples.clusterers.ClusteringDemo;
-
-import java.util.Enumeration;
 
 
 /**
@@ -73,7 +70,7 @@ public class WekaTutorial {
     }
 
     public void loadIrisArff() throws Exception {
-        dataset = DataSource.read("/home/honza/Documents/FJFI/DiDeTr/iris.arff");
+        dataset = DataSource.read("/home/honza/Documents/FJFI/diDeTr/iris.arff");
         dataset.setClassIndex(dataset.numAttributes() - 1);
     }
 
