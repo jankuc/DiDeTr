@@ -2,17 +2,12 @@
   <library name="Maven: net.sf.squirrel-sql.thirdparty-non-maven:java-cup:0.11a">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/net/sf/squirrel-sql/thirdparty-non-maven/java-cup/0.11a/java-cup-0.11a.jar!/" />
-      <root url="file://$PROJECT_DIR$/lib" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/net/sf/squirrel-sql/thirdparty-non-maven/java-cup/0.11a/java-cup-0.11a-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/net/sf/squirrel-sql/thirdparty-non-maven/java-cup/0.11a/java-cup-0.11a-sources.jar!/" />
-      <root url="jar://$USER_HOME$/Apps/weka-3-6-10/wekaexamples.zip!/src/main/java" />
-      <root url="file://$PROJECT_DIR$/lib" />
     </SOURCES>
-    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
-    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" type="SOURCES" />
   </library>
 </component>

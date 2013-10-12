@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="jamde">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Renyi/JAmde/target/classes/jamde" />
+      <root url="file://$PROJECT_DIR$/../Renyi/JAmde/target/classes/jamde/distribution" />
+      <root url="file://$PROJECT_DIR$/../Renyi/JAmde/target/classes/jamde/estimator" />
+      <root url="file://$PROJECT_DIR$/../Renyi/JAmde/target/classes/jamde/table" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
